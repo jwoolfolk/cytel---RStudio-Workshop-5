@@ -1,5 +1,5 @@
 ---
-title: "R Notebook with Phil & Jared"
+title: "R Notebook with Phil Bowsher & Jared"
 output: html_notebook
 ---
 
@@ -40,6 +40,7 @@ ggplot(adae) +
 
 Plotly
 ```{r}
+#plotly
 plot <- ggplot(adae) +
  aes(x = AESEV, fill = SEX, weight = AGE) +
  geom_bar() +
